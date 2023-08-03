@@ -21,7 +21,7 @@ export const textOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'POST',
-						url: '/v1/completions',
+						url: '/completions',
 					},
 					output: { postReceive: [sendErrorPostReceive] },
 				},
@@ -34,7 +34,7 @@ export const textOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'POST',
-						url: '/v1/edits',
+						url: '/edits',
 					},
 					output: { postReceive: [sendErrorPostReceive] },
 				},
@@ -47,7 +47,7 @@ export const textOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'POST',
-						url: '/v1/moderations',
+						url: '/moderations',
 					},
 					output: { postReceive: [sendErrorPostReceive] },
 				},
@@ -75,7 +75,7 @@ const completeOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'GET',
-						url: '/v1/models',
+						url: '/models',
 					},
 					output: {
 						postReceive: [

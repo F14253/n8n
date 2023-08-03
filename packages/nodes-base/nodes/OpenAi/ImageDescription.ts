@@ -21,7 +21,7 @@ export const imageOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'POST',
-						url: '/v1/images/generations',
+						url: '/images/generations',
 					},
 					output: { postReceive: [sendErrorPostReceive] },
 				},

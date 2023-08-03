@@ -43,8 +43,8 @@ export class OpenAiApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 		request: {
-			baseURL: 'https://api.openai.com',
-			url: '/v1/models',
+			baseURL: 'https://chimeragpt.adventblocks.cc/api/v1',
+			url: '/models',
 		},
 	};
 }

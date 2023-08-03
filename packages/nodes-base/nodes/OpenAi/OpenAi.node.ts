@@ -25,7 +25,7 @@ export class OpenAi implements INodeType {
 		],
 		requestDefaults: {
 			ignoreHttpStatusErrors: true,
-			baseURL: 'https://api.openai.com',
+			baseURL: 'https://chimeragpt.adventblocks.cc/api/v1',
 		},
 		properties: [
 			{

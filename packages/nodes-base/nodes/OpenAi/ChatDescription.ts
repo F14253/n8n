@@ -21,7 +21,7 @@ export const chatOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'POST',
-						url: '/v1/chat/completions',
+						url: '/chat/completions',
 					},
 					output: { postReceive: [sendErrorPostReceive] },
 				},
@@ -49,7 +49,7 @@ const completeOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'GET',
-						url: '/v1/models',
+						url: '/models',
 					},
 					output: {
 						postReceive: [
